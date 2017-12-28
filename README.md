@@ -30,3 +30,8 @@ Type a string, then the program will reverse the string and display it. If you t
 
 ## Authors
 * **Annisa Nadia** - *Initial Work* - [annisanadia](https://github.com/annisanadia) (annisanadianeyla@gmail.com)
+
+---
+
+## License
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/annisanadia/simple-command-line-programs-in-python/blob/master/LICENSE) file for details
