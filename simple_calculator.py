@@ -1,18 +1,23 @@
-### Created on 29-12-2017
+### Created on 07-01-2019
 ### @author: nad
 
+# This function adds two numbers
 def add(n, m):
     return n + m
 
+# This function subtracts two numbers
 def subtract(n, m):
     return n - m
 
+# This function multiplies two numbers
 def multiply(n, m):
     return n * m
 
+# This function divides two numbers
 def divide(n, m):
     return n / m
 
+# This function returns the result of the calculation of two numbers
 def finalResult(n, m):
     if userChoice == '+':
         result = add(n, m)
