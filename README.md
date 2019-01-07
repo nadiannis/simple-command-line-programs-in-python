@@ -38,6 +38,7 @@ Feel free to give any suggestions or comments if you think this repository or my
 * [Reverse a String Program](https://github.com/annisanadia/simple-command-line-programs-in-python/blob/master/reverse_string.py) - 
 Type a string, then the program will reverse the string and display it. If you type "-stop-" (without quotation mark), the program will stop.
 * [Count Words Program](https://github.com/annadineyl/simple-command-line-programs-in-python/blob/master/word_counter.py) - Type some texts or insert a text file & let the program counts the words. If you type "-stop-" (without quotation mark), the program will stop.
+* [Simple Calculator](https://github.com/annadineyl/simple-command-line-programs-in-python/blob/master/simple_calculator.py) - Add, subtract, multiply, & divide some numbers with this simple calculator program.
 
 ---
 
