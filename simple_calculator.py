@@ -21,16 +21,14 @@ def divide(n, m):
 def finalResult(n, m):
     if userChoice == '+':
         result = add(n, m)
-        return result
     elif userChoice == '-':
         result = subtract(n, m)
-        return result
     elif userChoice == '*':
         result = multiply(n, m)
-        return result
     elif userChoice == '/':
         result = divide(n, m)
-        return result
+        
+    return result
 
 while True:
     num1 = int(input('Enter a number: '))
