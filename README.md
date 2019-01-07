@@ -47,7 +47,7 @@ Type a string, then the program will reverse the string and display it. If you t
 ---
 
 ## Authors
-* **Annisa Nadia** - *Initial Work* - [annisanadia](https://github.com/annisanadia) (annisanadianeyla@gmail.com)
+* **Annisa Nadia** - *Initial Work* - [annadineyl](https://github.com/annadineyl) (annisanadianeyla@gmail.com)
 
 ---
 
