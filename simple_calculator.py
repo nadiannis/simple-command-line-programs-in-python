@@ -33,7 +33,6 @@ def final_result(n, m):
 while True:
     num1 = int(input('Enter a number: '))
     
-    result = 0
     while True:
         print('\t', 'Select operation: + Add | - Subtract | * Multiply | / Divide')
         print('\t', 'Please enter you choice (+, -, *, /): ', end=' ')
