@@ -18,28 +18,28 @@ def divide(n, m):
     return n / m
 
 # This function returns the result of the calculation of two numbers
-def finalResult(n, m):
-    if userChoice == '+':
+def final_result(n, m):
+    if user_choice == '+':
         result = add(n, m)
-    elif userChoice == '-':
+    elif user_choice == '-':
         result = subtract(n, m)
-    elif userChoice == '*':
+    elif user_choice == '*':
         result = multiply(n, m)
-    elif userChoice == '/':
+    elif user_choice == '/':
         result = divide(n, m)
         
     return result
 
 while True:
     num1 = int(input('Enter a number: '))
-
+    
     result = 0
     while True:
         print('\t', 'Select operation: + Add | - Subtract | * Multiply | / Divide')
         print('\t', 'Please enter you choice (+, -, *, /): ', end=' ')
-        userChoice = input()
+        user_choice = input()
 
         num2 = int(input('Enter another number: '))
         print('\n')
-        print('The result is', finalResult(num1, num2))
-        num1 = finalResult(num1, num2)
+        print('The result is', final_result(num1, num2))
+        num1 = final_result(num1, num2)
