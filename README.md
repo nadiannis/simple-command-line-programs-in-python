@@ -35,11 +35,11 @@ Feel free to give any suggestions or comments if you think this repository or my
 ---
 
 ## List of Programs
-* [Reverse a String Program](https://github.com/annisanadia/simple-command-line-programs-in-python/blob/master/reverse_string.py) - 
+* [Reverse a String](https://github.com/annadineyl/simple-command-line-programs-in-python/blob/master/mini_programs/reverse_string.py) - 
 Type a string, then the program will reverse the string and display it. If you type "-stop-" (without quotation mark), the program will stop.
-* [Count Words Program](https://github.com/annadineyl/simple-command-line-programs-in-python/blob/master/word_counter.py) - Type some texts or insert a text file & let the program counts the words. If you type "-stop-" (without quotation mark), the program will stop.
-* [Simple Calculator](https://github.com/annadineyl/simple-command-line-programs-in-python/blob/master/simple_calculator.py) - Add, subtract, multiply, & divide some numbers with this simple calculator program.
-* [Guess The Number](https://github.com/annadineyl/simple-command-line-programs-in-python/blob/master/guess_number.py) - Play & guess the number that the computer thinks.
+* [Count Words Program](https://github.com/annadineyl/simple-command-line-programs-in-python/blob/master/mini_programs/word_counter.py) - Type some texts or insert a text file & let the program counts the words. If you type "-stop-" (without quotation mark), the program will stop.
+* [Simple Calculator](https://github.com/annadineyl/simple-command-line-programs-in-python/blob/master/mini_programs/simple_calculator.py) - Add, subtract, multiply, & divide some numbers with this simple calculator program.
+* [Guess The Number](https://github.com/annadineyl/simple-command-line-programs-in-python/blob/master/mini_programs/guess_number.py) - Play & guess the number that the computer thinks.
 
 ---
 
