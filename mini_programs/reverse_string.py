@@ -1,14 +1,14 @@
 ### Created on 28-12-2017
-### @author: nad
+### @author: nad.
 
-while True:
-    print('[Type -stop- to stop the program.]')
-    text = str(input('Type text: '))
-
-    if text == '-stop-':   #stop the program
-        break
-
-    def reverse_string(string):
+def reverse_string(string):
         return string[::-1]
-
+	
+while True:
+    text = input('Type text (blank to quit): ')
+	
+    # Stop the program
+    if text == '':   
+        break
+		
     print(reverse_string(text) + '\n')
