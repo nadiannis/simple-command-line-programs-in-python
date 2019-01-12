@@ -1,8 +1,9 @@
 ### Created on 09-01-2019
-### @author: nad
+### @author: nad.
 
 import random
 
+# Generates a random number between 1 and 100 (1 <= num <= 100)
 num = random.randint(1, 100)
 print('\tI\'m thinking of a number between 1 and 100')
 print('\tYou only have 8 chances to guess.')
