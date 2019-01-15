@@ -15,7 +15,7 @@ This repository contains simple command-line programs written in [Python](https:
 
 ## Motivation
 I create this mini programs to help improve my programming skill and become familiar with Python programming language.
-Feel free to give any suggestions or comments if you think this repository or my code need to be improved or simplified, or maybe you have an interesting idea that can be made.
+Feel free to give any suggestions or comments if you think this repository or the codes need to be improved or simplified, or maybe you have an interesting idea that can be made.
 
 ---
 
@@ -41,6 +41,7 @@ Type a string, then the program will reverse the string and display it.
 * [Simple Calculator](https://github.com/annadineyl/simple-command-line-programs-in-python/blob/master/mini_programs/simple_calculator.py) - Add, subtract, multiply, & divide some numbers with this simple calculator program.
 * [Guess The Number](https://github.com/annadineyl/simple-command-line-programs-in-python/blob/master/mini_programs/guess_number.py) - Play & guess the number that the computer thinks.
 * [Count Characters Program](https://github.com/annadineyl/simple-command-line-programs-in-python/blob/master/mini_programs/char_counter.py) - The program will count & show you how many times each character appears in the text you enter.
+* [Rock Paper Scissors](https://github.com/annadineyl/simple-command-line-programs-in-python/blob/master/mini_programs/rock_paper_scissors.py) - A simple game which you & the computer will pick rock, paper, or scissors, then the program decides who the winner is.
 
 ---
 
