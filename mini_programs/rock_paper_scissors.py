@@ -1,9 +1,9 @@
 from random import randint
 
 options = ['Rock', 'Paper', 'Scissors']
-computer = options[randint(0, 2)]
 
 while True:
+    computer = options[randint(0, 2)]
     player = input('\nRock, Paper, Scissors?\nChoose one (blank to quit): ')
 
     if player == '':
