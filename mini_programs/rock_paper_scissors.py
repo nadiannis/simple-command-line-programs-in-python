@@ -1,11 +1,16 @@
+### Created on 15-1-2019
+### @author: nad.
+
 from random import randint
 
+# List of play options
 options = ['Rock', 'Paper', 'Scissors']
 
 while True:
-    computer = options[randint(0, 2)]
+    computer = options[randint(0, 2)]  # Pick rock, paper, or scissors randomly for the computer
     player = input('\nRock, Paper, Scissors?\nChoose one (blank to quit): ')
 
+    # Stop the program
     if player == '':
         break
 
