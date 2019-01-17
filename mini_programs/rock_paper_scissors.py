@@ -3,47 +3,42 @@
 
 from random import randint
 
+def result(player_choice, comp_choice):
+    if player_choice == comp_choice:
+        print('Tie!!')
+    elif player_choice == 'Rock':
+        if comp_choice == 'Paper':
+    	    print('You lose!\n', comp_choice, 'covers', player_choice)
+        else:
+            print('You win!\n', player_choice, 'smashes', comp_choice)
+    elif player_choice == 'Paper':
+        if comp_choice == 'Rock':
+            print('You win!\n', player_choice, 'covers', comp_choice)
+        else:
+            print('You lose!\n', comp_choice, 'cut', player_choice)
+    elif player_choice == 'Scissors':
+        if comp_choice == 'Rock':
+            print('You lose!\n', comp_choice, 'smashes', player_choice)
+        else:
+            print('You win!\n', player_choice, 'cut', comp_choice)
+    else:
+        print('Invalid play. Please check your spelling.')
+
+def display_result(player_choice, comp_choice):
+    print('\tComputer\'s choice:', comp_choice)
+    print('\tYour choice:', player_choice)
+    
+    result(player_choice, comp_choice)
+
 # List of play options
 options = ['Rock', 'Paper', 'Scissors']
 
 while True:
-    computer = options[randint(0, 2)]  # Pick rock, paper, or scissors randomly for the computer
+    computer = options[randint(0, 2)] # Pick rock, paper, or scissors randomly for the computer
     player = input('\nRock, Paper, Scissors?\nChoose one (blank to quit): ')
 
-    # Stop the program
+	# Stop the program
     if player == '':
         break
-
-    if player == computer:
-        print('\tComputer\'s choice:', computer)
-        print('\tYour choice:', player)
-        print('Tie!!')
-    elif player == 'Rock':
-        if computer == 'Paper':
-            print('\tComputer\'s choice:', computer)
-            print('\tYour choice:', player)
-            print('You lose!', computer, 'covers', player)
-        else:
-            print('\tComputer\'s choice:', computer)
-            print('\tYour choice:', player)
-            print('You win!', player, 'smashes', computer)
-    elif player == 'Paper':
-        if computer == 'Rock':
-            print('\tComputer\'s choice:', computer)
-            print('\tYour choice:', player)
-            print('You win!', player, 'covers', computer)
-        else:
-            print('\tComputer\'s choice:', computer)
-            print('\tYour choice:', player)
-            print('You lose!', computer, 'cut', player)
-    elif player == 'Scissors':
-        if computer == 'Rock':
-            print('\tComputer\'s choice:', computer)
-            print('\tYour choice:', player)
-            print('You lose!', computer, 'smashes', player)
-        else:
-            print('\tComputer\'s choice:', computer)
-            print('\tYour choice:', player)
-            print('You win!', player, 'cut', computer)
-    else:
-        print('Invalid play. Please check your spelling.')
+        
+    display_result(player, computer)
