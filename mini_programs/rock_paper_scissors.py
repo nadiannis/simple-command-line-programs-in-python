@@ -3,6 +3,7 @@
 
 from random import randint
 
+# Determines whether the player wins, loses, or draws
 def result(player_choice, comp_choice):
     if player_choice == comp_choice:
         print('Tie!!')
@@ -24,6 +25,7 @@ def result(player_choice, comp_choice):
     else:
         print('Invalid play. Please check your spelling.')
 
+# Display the player choice, computer choice, & the result
 def display_result(player_choice, comp_choice):
     print('\tComputer\'s choice:', comp_choice)
     print('\tYour choice:', player_choice)
@@ -36,8 +38,8 @@ options = ['Rock', 'Paper', 'Scissors']
 while True:
     computer = options[randint(0, 2)] # Pick rock, paper, or scissors randomly for the computer
     player = input('\nRock, Paper, Scissors?\nChoose one (blank to quit): ')
-
-	# Stop the program
+    
+    # Stop the program
     if player == '':
         break
         
