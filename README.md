@@ -1,6 +1,6 @@
 
 <h1 align="center">Simple Command-line Programs in Python</h1>
-<p>This repository contains simple command-line programs written in [Python](https://www.python.org/), more specifically Python 3.</p>
+<p align="center">This repository contains simple command-line programs written in <a href="https://www.python.org/">Python</a>, more specifically Python 3.</p>
      
 ---
 
