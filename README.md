@@ -1,6 +1,7 @@
-# Simple Command-line Programs in Python
-This repository contains simple command-line programs written in [Python](https://www.python.org/), more specifically Python 3.
 
+<h1 align="center">Simple Command-line Programs in Python</h1>
+<p>This repository contains simple command-line programs written in [Python](https://www.python.org/), more specifically Python 3.</p>
+     
 ---
 
 ## Table of Contents
