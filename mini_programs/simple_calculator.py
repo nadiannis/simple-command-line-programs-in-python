@@ -27,6 +27,8 @@ def final_result(n, m):
         result = multiply(n, m)
     elif user_choice == '/':
         result = divide(n, m)
+    else:
+        result = 'Invalid operator.\n'
         
     return result
 
@@ -39,6 +41,10 @@ while True:
         user_choice = input()
 
         num2 = int(input('Enter another number: '))
-        print('\n')
-        print('The result is', final_result(num1, num2))
-        num1 = final_result(num1, num2)
+        
+        if user_choice == '+' or user_choice == '-' or user_choice == '*' or user_choice == '/':
+            print('\n')
+            print('The result is', final_result(num1, num2))
+            num1 = final_result(num1, num2)
+        else:
+            print(final_result(num1, num2))
