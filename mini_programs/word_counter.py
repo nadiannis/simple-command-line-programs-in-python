@@ -17,15 +17,15 @@ def display_num_of_words(n):
     print(n, 'words\n')
     
 while True:
-    selected = input('Enter type text or from file (blank to quit):\n')
+    selected = input('Enter type text or from file (blank to quit):\n').lower()
 
     if selected == '':
         break  # Stop the program
     elif selected == 'type text':
-        input_text = input('\nType text:\n')
-        display_num_of_words(count_words(input_text))
+        text = input('\nType text:\n')
+        display_num_of_words(count_words(text))
     elif selected == 'from file':
-        insert_file = input('\nInsert file:\n')
-        display_num_of_words(count_words_file(insert_file))
+        file = input('\nInsert file:\n')
+        display_num_of_words(count_words_file(file))
     else:
         print('Invalid input.\n')
