@@ -22,10 +22,16 @@ while True:
     if selected == '':
         break  # Stop the program
     elif selected == 'type text':
-        text = input('\nType text:\n')
-        display_num_of_words(count_words(text))
+        text = input('\nType text (type * to go back):\n')
+        if (text == '*'):
+            continue;
+        else:
+            display_num_of_words(count_words(text))
     elif selected == 'from file':
-        file = input('\nInsert file:\n')
-        display_num_of_words(count_words_file(file))
+        file = input('\nInsert file (type * to go back):\n')
+        if (file == '*'):
+            continue;
+        else:
+            display_num_of_words(count_words(text))
     else:
         print('Invalid input.\n')
