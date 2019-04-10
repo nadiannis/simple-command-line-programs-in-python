@@ -43,6 +43,7 @@ Type a string, then the program will reverse the string and display it.
 * [Guess The Number](https://github.com/annadineyl/simple-command-line-programs-in-python/blob/master/mini_programs/guess_number.py) - Play & guess the number that the computer thinks.
 * [Count Characters Program](https://github.com/annadineyl/simple-command-line-programs-in-python/blob/master/mini_programs/char_counter.py) - The program will count & show you how many times each character appears in the text you enter.
 * [Rock Paper Scissors](https://github.com/annadineyl/simple-command-line-programs-in-python/blob/master/mini_programs/rock_paper_scissors.py) - A simple game which you & the computer will pick rock, paper, or scissors, then the program decides who the winner is.
+* [Prime Number Generator](https://github.com/annadineyl/simple-command-line-programs-in-python/blob/master/mini_programs/prime_number.py) - Type a number, and the program will generate all the prime numbers from 0 upto the given number.
 
 ---
 
