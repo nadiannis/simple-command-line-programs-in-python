@@ -1,5 +1,5 @@
 ### Created on 07-01-2019
-### @author: nad
+### @author: annadineyl
 
 # This function adds two numbers
 def add(n, m):

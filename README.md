@@ -36,14 +36,15 @@ Feel free to give any suggestions or comments if you think this repository or th
 ---
 
 ## List of Programs
+* [Count Characters Program](https://github.com/annadineyl/simple-command-line-programs-in-python/blob/master/mini_programs/char_counter.py) - The program will count & show you how many times each character appears in the text you enter.
+* [Count Words Program](https://github.com/annadineyl/simple-command-line-programs-in-python/blob/master/mini_programs/word_counter.py) - Type some texts or insert a text file & let the program counts the words.
+* [Fibonacci Number Generator](https://github.com/annadineyl/simple-command-line-programs-in-python/blob/master/mini_programs/fibonacci.py) - Enter how many fibonacci numbers you want, and get the fibonacci numbers. 
+* [Guess The Number](https://github.com/annadineyl/simple-command-line-programs-in-python/blob/master/mini_programs/guess_number.py) - Play & guess the number that the computer thinks.
+* [Prime Number Generator](https://github.com/annadineyl/simple-command-line-programs-in-python/blob/master/mini_programs/prime_number.py) - Type a number, and the program will generate all the prime numbers from 0 upto the given number.
 * [Reverse a String](https://github.com/annadineyl/simple-command-line-programs-in-python/blob/master/mini_programs/reverse_string.py) - 
 Type a string, then the program will reverse the string and display it.
-* [Count Words Program](https://github.com/annadineyl/simple-command-line-programs-in-python/blob/master/mini_programs/word_counter.py) - Type some texts or insert a text file & let the program counts the words.
-* [Simple Calculator](https://github.com/annadineyl/simple-command-line-programs-in-python/blob/master/mini_programs/simple_calculator.py) - Add, subtract, multiply, & divide some numbers with this simple calculator program.
-* [Guess The Number](https://github.com/annadineyl/simple-command-line-programs-in-python/blob/master/mini_programs/guess_number.py) - Play & guess the number that the computer thinks.
-* [Count Characters Program](https://github.com/annadineyl/simple-command-line-programs-in-python/blob/master/mini_programs/char_counter.py) - The program will count & show you how many times each character appears in the text you enter.
 * [Rock Paper Scissors](https://github.com/annadineyl/simple-command-line-programs-in-python/blob/master/mini_programs/rock_paper_scissors.py) - A simple game which you & the computer will pick rock, paper, or scissors, then the program decides who the winner is.
-* [Prime Number Generator](https://github.com/annadineyl/simple-command-line-programs-in-python/blob/master/mini_programs/prime_number.py) - Type a number, and the program will generate all the prime numbers from 0 upto the given number.
+* [Simple Calculator](https://github.com/annadineyl/simple-command-line-programs-in-python/blob/master/mini_programs/simple_calculator.py) - Add, subtract, multiply, & divide some numbers with this simple calculator program.
 
 ---
 

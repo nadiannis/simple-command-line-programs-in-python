@@ -1,5 +1,5 @@
 ### Created on 09-01-2019
-### @author: nad.
+### @author: annadineyl
 
 import random
 
