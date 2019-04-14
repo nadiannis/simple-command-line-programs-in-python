@@ -11,6 +11,13 @@ def n_factor(num):
     
     return num_of_factor
 
+def is_prime(num, n_prime):
+    if n_factor(num) == 2:
+        print(num, end='  ')
+        n_prime += 1
+    
+    return n_prime
+
 print('######################################')
 print('###     PRIME NUMBER GENERATOR     ###')
 print('######################################')
@@ -23,9 +30,6 @@ maxNum = int(input('Enter the maximum number: '))
 
 print('\nPrime numbers from 0 upto ' + str(maxNum) + ': ')
 for i in range(maxNum+1):
-    if n_factor(i) == 2:
-        print(i, end='  ')
-        num_of_prime += 1
+    num_of_prime = is_prime(i, num_of_prime)
 
-print('\n\nThere are '+ str(num_of_prime) + ' prime numbers.')
-    
+print('\n\nThere are ' + str(num_of_prime) + ' prime numbers.')

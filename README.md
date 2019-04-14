@@ -15,7 +15,7 @@
 ---
 
 ## Motivation
-I create this mini programs to help improve my programming skill and become familiar with Python programming language.
+I create this mini programs to improve my programming skill and become familiar with Python programming language.
 Feel free to give any suggestions or comments if you think this repository or the codes need to be improved or simplified, or maybe you have an interesting idea that can be made.
 
 ---
