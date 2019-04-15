@@ -38,6 +38,7 @@ Feel free to give any suggestions or comments if you think this repository or th
 ## List of Programs
 * [Count Characters Program](https://github.com/annadineyl/simple-command-line-programs-in-python/blob/master/mini_programs/char_counter.py) - The program will count & show you how many times each character appears in the text you enter.
 * [Count Words Program](https://github.com/annadineyl/simple-command-line-programs-in-python/blob/master/mini_programs/word_counter.py) - Type some texts or insert a text file & let the program counts the words.
+* [Even & Odd Number Checker](https://github.com/annadineyl/simple-command-line-programs-in-python/blob/master/mini_programs/even_odd_checker.py) - Check whether a number is even or odd. 
 * [Fibonacci Number Generator](https://github.com/annadineyl/simple-command-line-programs-in-python/blob/master/mini_programs/fibonacci.py) - Enter how many fibonacci numbers you want, and get the fibonacci numbers. 
 * [Guess The Number](https://github.com/annadineyl/simple-command-line-programs-in-python/blob/master/mini_programs/guess_number.py) - Play & guess the number that the computer thinks.
 * [Prime Number Generator](https://github.com/annadineyl/simple-command-line-programs-in-python/blob/master/mini_programs/prime_number.py) - Type a number, and the program will generate all the prime numbers from 0 upto the given number.
