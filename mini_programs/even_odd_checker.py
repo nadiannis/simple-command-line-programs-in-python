@@ -1,5 +1,5 @@
 ### Created on 15-04-2019
-### @author: nad.
+### @author: annadineyl
 
 while True:
     num = input('Enter a number (blank to quit): ')
