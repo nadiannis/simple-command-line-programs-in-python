@@ -46,6 +46,7 @@ Feel free to give any suggestions or comments if you think this repository or th
 Type a string, then the program will reverse the string and display it.
 * [Rock Paper Scissors](https://github.com/annadineyl/simple-command-line-programs-in-python/blob/master/mini_programs/rock_paper_scissors.py) - A simple game which you & the computer will pick rock, paper, or scissors, then the program decides who the winner is.
 * [Simple Calculator](https://github.com/annadineyl/simple-command-line-programs-in-python/blob/master/mini_programs/simple_calculator.py) - Add, subtract, multiply, & divide some numbers with this simple calculator program.
+* [Split the Even & Odd](https://github.com/annadineyl/simple-command-line-programs-in-python/blob/master/mini_programs/split_even_odd.py) - Enter some numbers, and the program will split the even and odd numbers into two different groups.
 
 ---
 
