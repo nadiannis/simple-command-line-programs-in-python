@@ -25,8 +25,5 @@ for num in nums:
     print(num, end=' ')
 print('\n')
 
-print('Even:')
-print(even)
-print('')
-print('Odd:')
-print(odd)
+print('Even:\n' + even + '\n')
+print('Odd:\n' + odd)

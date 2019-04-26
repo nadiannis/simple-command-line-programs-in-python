@@ -26,10 +26,10 @@ print('###     GENERATE PRIME NUMBERS     ###')
 print('###   FROM 0 UPTO A GIVEN NUMBER   ###')
 print('###                                ###')
 print('######################################')
-maxNum = int(input('Enter the maximum number: '))
+max_num = int(input('Enter the maximum number: '))
 
-print('\nPrime numbers from 0 upto ' + str(maxNum) + ': ')
-for i in range(maxNum+1):
+print('\nPrime numbers from 0 upto ' + str(max_num) + ': ')
+for i in range(max_num+1):
     num_of_prime = is_prime(i, num_of_prime)
 
 print('\n\nThere are ' + str(num_of_prime) + ' prime numbers.')
