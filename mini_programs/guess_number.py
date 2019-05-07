@@ -3,13 +3,24 @@
 
 import random
 
+print('###     Choose Level     ###')
+print('### Easy | Medium | Hard ###')
+level = input('Enter level: ')
+
+if level.lower() == 'easy':
+    chance = 10
+elif level.lower() == 'medium':
+    chance = 6
+elif level.lower() == 'hard':
+    chance = 4
+
 # Generates a random number between 1 and 100 (1 <= num <= 100)
 num = random.randint(1, 100)
-print('\tI\'m thinking of a number between 1 and 100')
-print('\tYou only have 8 chances to guess.')
+print('\n\tI\'m thinking of a number between 1 and 100')
+print('\tYou only have ' + str(chance) + ' chances to guess.')
 
 guesses_taken = 0
-while guesses_taken < 8:
+while guesses_taken < chance:
     guess = int(input('Take a guess: '))
 
     guesses_taken += 1
