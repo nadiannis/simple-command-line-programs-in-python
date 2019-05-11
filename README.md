@@ -36,6 +36,7 @@ Feel free to give any suggestions or comments if you think this repository or th
 ---
 
 ## List of Programs
+* [Average of Numbers](https://github.com/annadineyl/simple-command-line-programs-in-python/blob/master/mini_programs/average.py) - Calculate the average of numbers in a given list. 
 * [Count Characters Program](https://github.com/annadineyl/simple-command-line-programs-in-python/blob/master/mini_programs/char_counter.py) - The program will count & show you how many times each character appears in the text you enter.
 * [Count Words Program](https://github.com/annadineyl/simple-command-line-programs-in-python/blob/master/mini_programs/word_counter.py) - Type some texts or insert a text file & let the program counts the words.
 * [Even & Odd Number Checker](https://github.com/annadineyl/simple-command-line-programs-in-python/blob/master/mini_programs/even_odd_checker.py) - Check whether a number is even or odd. 
