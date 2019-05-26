@@ -1,6 +1,27 @@
 ### Created on 25-05-2019
 ### @author: annadineyl
 
+def inputMatrix(matrix, row, col):
+    for i in range(row):      # Loop for row entries
+        r = []
+        for j in range(col):  # Loop for column entries
+            r.append(int(input('Entry in row ' + str(i+1) + ' col ' + str(j+1) + ': ')))
+        matrix.append(r)
+
+def addMatrix(matrix1, matrix2, row, col, result):
+    for i in range(row):
+        r = []
+        for j in range(col):
+            r.append(matrix1[i][j] + matrix2[i][j])
+        result.append(r)
+
+def displayMatrix(matrix, row, col):
+    for i in range(row):
+        for j in range(col):
+            print(matrix[i][j], end='  ')
+        print('')
+
+
 matrix1 = []
 matrix2 = []
 result = []
@@ -16,29 +37,13 @@ if (row1 != row2) or (col1 != col2):
     print('\tBoth matrices must be of the same size.')
 else:
     print('\n###  Matrix 1  ###')
-    for i in range(row1):      # Loop for row entries
-        r = []
-        for j in range(col1):  # Loop for column entries
-            r.append(int(input('Entry in row ' + str(i+1) + ' col ' + str(j+1) + ': ')))
-        matrix1.append(r)
+    inputMatrix(matrix1, row1, col1)
 
     print('\n###  Matrix 2  ###')
-    for i in range(row2):      # Loop for row entries
-        r = []
-        for j in range(col2):  # Loop for column entries
-            r.append(int(input('Entry in row ' + str(i+1) + ' col ' + str(j+1) + ': ')))
-        matrix2.append(r)
+    inputMatrix(matrix2, row2, col2)
     
     # Add the matrices
-    for i in range(row1):
-        r = []
-        for j in range(col1):
-            r.append(matrix1[i][j] + matrix2[i][j])
-        result.append(r)
+    addMatrix(matrix1, matrix2, row1, col1, result)
 
     print('\nThe addition of the matrices:')
-    for i in range(row1):
-        for j in range(col1):
-            print(result[i][j], end='  ')
-        print('')
-
+    displayMatrix(result, row1, col1)
