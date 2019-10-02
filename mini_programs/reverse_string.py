@@ -1,5 +1,4 @@
 ### Created on 28-12-2017
-### @author: annadineyl
 
 def reverse_string(string):
         return string[::-1]

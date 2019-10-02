@@ -1,5 +1,4 @@
 ### Created on 11-04-2019
-### @author: annadineyl
 
 while True:
     n = int(input('\nHow many fibonacci numbers do you want? (0 to quit)\n'))

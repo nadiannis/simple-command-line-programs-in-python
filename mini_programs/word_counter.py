@@ -1,5 +1,4 @@
 ### Created on 29-12-2017
-### @author: annadineyl
 
 # Count the words
 def count_words(s):

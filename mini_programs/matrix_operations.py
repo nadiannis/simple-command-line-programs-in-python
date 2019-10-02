@@ -1,5 +1,4 @@
 ### Created on 25-05-2019
-### @author: annadineyl
 
 def inputMatrix(matrix, row, col):
     for i in range(row):      # Loop for row entries

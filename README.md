@@ -36,19 +36,19 @@ Feel free to give any suggestions or comments if you think this repository or th
 ---
 
 ## List of Programs
-* [Average of Numbers](https://github.com/annadineyl/simple-command-line-programs-in-python/blob/master/mini_programs/average.py) - Calculate the average of numbers in a given list. 
-* [Count Characters Program](https://github.com/annadineyl/simple-command-line-programs-in-python/blob/master/mini_programs/char_counter.py) - The program will count & show you how many times each character appears in the text you enter.
-* [Count Words Program](https://github.com/annadineyl/simple-command-line-programs-in-python/blob/master/mini_programs/word_counter.py) - Type some texts or insert a text file & let the program counts the words.
-* [Even & Odd Number Checker](https://github.com/annadineyl/simple-command-line-programs-in-python/blob/master/mini_programs/even_odd_checker.py) - Check whether a number is even or odd. 
-* [Fibonacci Number Generator](https://github.com/annadineyl/simple-command-line-programs-in-python/blob/master/mini_programs/fibonacci.py) - Enter how many fibonacci numbers you want, and get the fibonacci numbers. 
-* [Guess The Number](https://github.com/annadineyl/simple-command-line-programs-in-python/blob/master/mini_programs/guess_number.py) - Play & guess the number that the computer thinks.
-* [Palindrome or Not](https://github.com/annadineyl/simple-command-line-programs-in-python/blob/master/mini_programs/palindrome.py) - Check whether a string is palindrome or not.
-* [Prime Number Generator](https://github.com/annadineyl/simple-command-line-programs-in-python/blob/master/mini_programs/prime_number.py) - Type a number, and the program will generate all the prime numbers from 0 upto the given number.
-* [Reverse a String](https://github.com/annadineyl/simple-command-line-programs-in-python/blob/master/mini_programs/reverse_string.py) - 
+* [Average of Numbers](https://github.com/nadiannis/simple-command-line-programs-in-python/blob/master/mini_programs/average.py) - Calculate the average of numbers in a given list. 
+* [Count Characters](https://github.com/nadiannis/simple-command-line-programs-in-python/blob/master/mini_programs/char_counter.py) - The program will count & show you how many times each character appears in the text you enter.
+* [Count Words](https://github.com/nadiannis/simple-command-line-programs-in-python/blob/master/mini_programs/word_counter.py) - Type some texts or insert a text file & let the program counts the words.
+* [Even & Odd Number Checker](https://github.com/nadiannis/simple-command-line-programs-in-python/blob/master/mini_programs/even_odd_checker.py) - Check whether a number is even or odd. 
+* [Fibonacci Number Generator](https://github.com/nadiannis/simple-command-line-programs-in-python/blob/master/mini_programs/fibonacci.py) - Enter how many fibonacci numbers you want, and get the fibonacci numbers. 
+* [Guess The Number](https://github.com/nadiannis/simple-command-line-programs-in-python/blob/master/mini_programs/guess_number.py) - Play & guess the number that the computer thinks.
+* [Palindrome or Not](https://github.com/nadiannis/simple-command-line-programs-in-python/blob/master/mini_programs/palindrome.py) - Check whether a string is palindrome or not.
+* [Prime Number Generator](https://github.com/nadiannis/simple-command-line-programs-in-python/blob/master/mini_programs/prime_number.py) - Type a number, and the program will generate all the prime numbers from 0 upto the given number.
+* [Reverse a String](https://github.com/nadiannis/simple-command-line-programs-in-python/blob/master/mini_programs/reverse_string.py) - 
 Type a string, then the program will reverse the string and display it.
-* [Rock Paper Scissors](https://github.com/annadineyl/simple-command-line-programs-in-python/blob/master/mini_programs/rock_paper_scissors.py) - A simple game which you & the computer will pick rock, paper, or scissors, then the program decides who the winner is.
-* [Simple Calculator](https://github.com/annadineyl/simple-command-line-programs-in-python/blob/master/mini_programs/simple_calculator.py) - Add, subtract, multiply, & divide some numbers with this simple calculator program.
-* [Split the Even & Odd](https://github.com/annadineyl/simple-command-line-programs-in-python/blob/master/mini_programs/split_even_odd.py) - Enter some numbers, and the program will split the even and odd numbers into two different groups.
+* [Rock Paper Scissors](https://github.com/nadiannis/simple-command-line-programs-in-python/blob/master/mini_programs/rock_paper_scissors.py) - A simple game which you & the computer will pick rock, paper, or scissors, then the program decides who the winner is.
+* [Simple Calculator](https://github.com/nadiannis/simple-command-line-programs-in-python/blob/master/mini_programs/simple_calculator.py) - Add, subtract, multiply, & divide some numbers with this simple calculator program.
+* [Split the Even & Odd](https://github.com/nadiannis/simple-command-line-programs-in-python/blob/master/mini_programs/split_even_odd.py) - Enter some numbers, and the program will split the even and odd numbers into two different groups.
 
 ---
 
@@ -57,9 +57,9 @@ Type a string, then the program will reverse the string and display it.
 ---
 
 ## Authors
-* **Annisa Nadia** - *Initial Work* - [annadineyl](https://github.com/annadineyl) (annisanadianeyla@gmail.com)
+* **Annisa Nadia** - *Initial Work* - [nadiannis](https://github.com/nadiannis) (annisanadianeyla@gmail.com)
 
 ---
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/annisanadia/simple-command-line-programs-in-python/blob/master/LICENSE) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/nadiannis/simple-command-line-programs-in-python/blob/master/LICENSE) file for details

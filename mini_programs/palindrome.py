@@ -1,5 +1,4 @@
 ### Created on 26-04-2019
-### @author: annadineyl
 
 while True:
     text = input('Enter a text (blank to stop): ')

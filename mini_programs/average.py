@@ -1,5 +1,4 @@
 ### Created on 12-05-2019
-### @author: annadineyl
 
 nums = input('Enter some numbers (separate by space): ')
 nums = nums.split(' ')

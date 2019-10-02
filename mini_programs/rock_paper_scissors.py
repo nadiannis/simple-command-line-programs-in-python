@@ -1,5 +1,4 @@
 ### Created on 15-1-2019
-### @author: annadineyl
 
 from random import randint
 

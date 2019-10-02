@@ -1,5 +1,4 @@
 ### Created on 10-04-2019
-### @author: annadineyl
 
 num_of_prime = 0
 

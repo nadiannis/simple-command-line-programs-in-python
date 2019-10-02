@@ -1,5 +1,4 @@
 ### Created on 11-1-2019
-### @author: annadineyl
 
 while True:
     print('\nEnter text (blank to quit): ')

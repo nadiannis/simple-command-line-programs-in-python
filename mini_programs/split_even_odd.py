@@ -1,5 +1,4 @@
 ### Created on 16-04-2019
-### @author: annadineyl
 
 nums = []
 even = ''
