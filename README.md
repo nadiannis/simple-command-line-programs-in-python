@@ -42,6 +42,7 @@ Feel free to give any suggestions or comments if you think this repository or th
 * [Even & Odd Number Checker](https://github.com/nadiannis/simple-command-line-programs-in-python/blob/master/mini_programs/even_odd_checker.py) - Check whether a number is even or odd. 
 * [Fibonacci Number Generator](https://github.com/nadiannis/simple-command-line-programs-in-python/blob/master/mini_programs/fibonacci.py) - Enter how many fibonacci numbers you want, and get the fibonacci numbers. 
 * [Guess The Number](https://github.com/nadiannis/simple-command-line-programs-in-python/blob/master/mini_programs/guess_number.py) - Play & guess the number that the computer thinks.
+* [Matrix Operations](https://github.com/nadiannis/simple-command-line-programs-in-python/blob/master/mini_programs/matrix_operations.py) - Perform several operations on matrices.
 * [Palindrome or Not](https://github.com/nadiannis/simple-command-line-programs-in-python/blob/master/mini_programs/palindrome.py) - Check whether a string is palindrome or not.
 * [Prime Number Generator](https://github.com/nadiannis/simple-command-line-programs-in-python/blob/master/mini_programs/prime_number.py) - Type a number, and the program will generate all the prime numbers from 0 upto the given number.
 * [Reverse a String](https://github.com/nadiannis/simple-command-line-programs-in-python/blob/master/mini_programs/reverse_string.py) - 
