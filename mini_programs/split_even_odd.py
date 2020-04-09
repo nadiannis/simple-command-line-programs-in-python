@@ -1,8 +1,8 @@
 ### Created on 16-04-2019
 
 nums = []
-even = ''
-odd = ''
+even = []
+odd = []
 
 while True:
     num = input('Enter a number (blank to stop entering number): ')
@@ -15,14 +15,12 @@ while True:
 
 for num in nums:
     if num % 2 == 0:
-        even += str(num) + ' '
+        even.append(num)
     else:
-        odd += str(num) + ' '
+        odd.append(num)
 
-print('\nYou entered:')
-for num in nums:
-    print(num, end=' ')
-print('\n')
 
-print('Even:\n' + even + '\n')
-print('Odd:\n' + odd)
+print('\nYou entered:', *nums, end=' ')
+
+print('\n\nEven:', *even, end=' ')
+print('\n\nodd:', *odd, end=' ')

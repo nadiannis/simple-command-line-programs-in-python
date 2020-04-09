@@ -16,6 +16,7 @@ def multiply(n, m):
 def divide(n, m):
     return n / m
 
+
 # This function returns the result of the calculation of two numbers
 def final_result(n, m):
     if user_choice == '+':
@@ -24,26 +25,24 @@ def final_result(n, m):
         result = subtract(n, m)
     elif user_choice == '*':
         result = multiply(n, m)
-    elif user_choice == '/':
-        result = divide(n, m)
     else:
-        result = 'Invalid operator.\n'
-        
+        result = divide(n, m)
     return result
 
-while True:
-    num1 = int(input('Enter a number: '))
-    
-    while True:
-        print('\t', 'Select operation: + Add | - Subtract | * Multiply | / Divide')
-        print('\t', 'Please enter you choice (+, -, *, /): ', end=' ')
-        user_choice = input()
 
+num1 = int(input('Enter a number: '))
+while True:
+    print('[operation]'.center(45))
+    print('+ Add | - Subtract | * Multiply | / Divide')
+    print('\nPlease enter you choice (+, -, *, /)\n[blank to quit]: ')
+    user_choice = input()
+    
+    if user_choice in ['+', '-', '*', '/']:
         num2 = int(input('Enter another number: '))
-        
-        if user_choice == '+' or user_choice == '-' or user_choice == '*' or user_choice == '/':
-            print('\n')
-            print('The result is', final_result(num1, num2))
-            num1 = final_result(num1, num2)
-        else:
-            print(final_result(num1, num2))
+        res = final_result(num1, num2)
+        print(f'\nThe result is {res}\n')
+        num1 = res
+    elif user_choice == '':
+        break
+    else:
+        print('Invalid operator.\n')
