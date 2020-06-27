@@ -2,7 +2,7 @@
 
 while True:
     n = int(input('\nHow many fibonacci numbers do you want? (0 to quit)\n'))
-
+    
     if n == 0:
         break
     elif n < 0:
@@ -10,13 +10,9 @@ while True:
     else:
         a = 0
         b = 1
-        sum = 0
-
+        
         print('\nFibonacci sequence upto ' + str(n) + ':')
-        for count in range(n):
-            print(a, end='  ')
-
-            sum = a + b
-            a = b 
-            b = sum
-        print('')
+        for _ in range(n):
+            print(a, end=' ')
+            a, b = b, a+b
+        print()

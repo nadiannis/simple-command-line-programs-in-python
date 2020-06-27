@@ -6,31 +6,37 @@ def count_words(s):
     return num_of_words
 
 # Count the words in the file
-def count_words_file(the_file):
-    file = open(the_file, 'r', encoding='utf-8')
-    text = file.read()
-    return count_words(text)
+def count_words_file(filepath):
+    file = open(filepath, 'rt', encoding='utf-8')
+    lines = (line.strip() for line in file)  # using generator comprehension is memory
+    total = 0                                # efficient while dealing with large files
+    for line in lines:
+        total += count_words(line)
+    file.close()
+    return total
 
-# Display the number of words
-def display_num_of_words(n):
-    print(n, 'words\n')
-    
+
 while True:
-    selected = input('Enter type text or from file (blank to quit):\n').lower()
-
+    selected = input('''Enter type:
+t: for text
+f: for file
+[blank to quit] => ''').lower()
+    
     if selected == '':
         break  # Stop the program
-    elif selected == 'type text':
-        text = input('\nType text (type * to go back):\n')
-        if (text == '*'):
-            continue;
+    elif selected == 't':
+        text = input('Enter Text [ * to go back]: ')
+        if text == '*':
+            continue
         else:
-            display_num_of_words(count_words(text))
-    elif selected == 'from file':
-        file = input('\nInsert file (type * to go back):\n')
-        if (file == '*'):
-            continue;
+            n = count_words(text)
+            print(n, 'words\n')
+    elif selected == 'f':
+        filepath = input('Enter Filepath [ * to go back]: ')
+        if filepath == '*':
+            continue
         else:
-            display_num_of_words(count_words(text))
+            n = count_words_file(filepath)
+            print(n, 'words\n')
     else:
         print('Invalid input.\n')

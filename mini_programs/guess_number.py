@@ -4,13 +4,13 @@ import random
 
 print('###     Choose Level     ###')
 print('### Easy | Medium | Hard ###')
-level = input('Enter level: ')
+level = input('Enter level: ').lower()
 
-if level.lower() == 'easy':
+if level == 'easy':
     chance = 10
-elif level.lower() == 'medium':
+elif level == 'medium':
     chance = 6
-elif level.lower() == 'hard':
+elif level == 'hard':
     chance = 4
 
 # Generates a random number between 1 and 100 (1 <= num <= 100)
