@@ -1,7 +1,7 @@
 ### Created on 28-12-2017
 
 def reverse_string(string):
-        return string[::-1]
+    return string[::-1]
 	
 while True:
     text = input('Type text (blank to quit): ')

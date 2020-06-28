@@ -1,7 +1,6 @@
 ### Created on 10-04-2019
 import math
 
-
 print('######################################')
 print('###     PRIME NUMBER GENERATOR     ###')
 print('######################################')
@@ -18,7 +17,7 @@ for i in range(2, max_num+1):
     primes.append(i)
 
 for x in range(2, int(math.sqrt(max_num)+1)):
-    if x in primes:  # remove multiples of x if x in list
+    if x in primes:  # Remove multiples of x if x in list
         for y in range(x*2, max_num+1, x):
             if y in primes:
                 primes.remove(y)

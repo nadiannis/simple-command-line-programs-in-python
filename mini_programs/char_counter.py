@@ -10,7 +10,6 @@ while True:
 
     count = {}
     for char in text:
-        # count.setdefault(char, 0)
         if char not in count:
             count[char] = 0
 

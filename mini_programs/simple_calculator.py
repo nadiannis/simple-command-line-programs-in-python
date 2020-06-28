@@ -1,32 +1,15 @@
 ### Created on 07-01-2019
 
-# This function adds two numbers
-def add(n, m):
-    return n + m
-
-# This function subtracts two numbers
-def subtract(n, m):
-    return n - m
-
-# This function multiplies two numbers
-def multiply(n, m):
-    return n * m
-
-# This function divides two numbers
-def divide(n, m):
-    return n / m
-
-
 # This function returns the result of the calculation of two numbers
 def final_result(n, m):
     if user_choice == '+':
-        result = add(n, m)
+        result = n + m
     elif user_choice == '-':
-        result = subtract(n, m)
+        result = n - m
     elif user_choice == '*':
-        result = multiply(n, m)
+        result = n * m
     else:
-        result = divide(n, m)
+        result = n / m
     return result
 
 

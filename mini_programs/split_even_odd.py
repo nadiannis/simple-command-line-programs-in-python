@@ -23,4 +23,4 @@ for num in nums:
 print('\nYou entered:', *nums, end=' ')
 
 print('\n\nEven:', *even, end=' ')
-print('\n\nodd:', *odd, end=' ')
+print('\n\nOdd:', *odd, end=' ')

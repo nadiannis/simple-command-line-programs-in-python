@@ -34,7 +34,7 @@ def main():
     result = []
     
     print('====================================')
-    print('    operation: + Add | - Subtract   ')
+    print('    Operation: + Add | - Subtract   ')
     print('====================================')
     
     row1 = int(input('\nEnter number of rows of matrix 1: '))
